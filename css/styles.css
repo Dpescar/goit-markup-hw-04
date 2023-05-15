@@ -24,6 +24,16 @@
   top: 0px;
 }
 .icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-smartphone {
+  width: 0.625em;
+}
 
 body {
   font-family: var(--text-font-family);
@@ -465,8 +475,7 @@ a:focus {
 
 .email-phone {
   display: flex;
-  margin-left: 385px;
-  padding-right: 215px;
+  margin-left: 350px;
 }
 .global-header .email-phone a + a {
   margin-left: 40px;
