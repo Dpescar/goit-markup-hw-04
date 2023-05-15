@@ -11,7 +11,11 @@
 * {
   box-sizing: border-box;
 }
-
+.header-mail-icon {
+  width: 161px;
+  height: 16px;
+  top: 32px;
+}
 .global-header {
   color: #757575;
   width: 1600px;
@@ -19,6 +23,7 @@
   left: 0px;
   top: 0px;
 }
+.icon {
 
 body {
   font-family: var(--text-font-family);
